@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="https://fundesplai.org/wp-content/uploads/2021/11/cropped-cropped-favicon-512x512-1-32x32.png" sizes="32x32">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+
+  <title>Fundesplai</title>
+  <script src="https://kit.fontawesome.com/4baa0e9b7b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <input type="checkbox" id="burger-toggle" class="burger-toggle" />
+    <nav class="nav-burger">
+      <div class="top-nav-container">
+        <div class="search-lenguage">
+          <i class="fa-solid fa-magnifying-glass glass-nav"></i>
+          <label for="language-toggle">
+            CA<i class="fa-solid fa-chevron-down"></i>
+          </label>
+        </div>
+        <div class="burger-menu">
+          <label for="burger-toggle">
+            <i class="fa-solid fa-bars" style="pointer-events: none"></i>
+          </label>
+        </div>
+      </div>
+      <div class="logo-nav">
+        <img class="logo-img-nav" src="./assets/Fundesplai-logo-web.png" alt="logo fundesplai" />
+      </div>
+      <div class="inside-burger">
+        <div class="coneix-fundesplai">
+          <h2>CONEIX FUNDESPLAI</h2>
+        </div>
+        <div class="nav-butons">
+          <a>Inscripcions</a>
+          <a>Fes un donatiu</a>
+        </div>
+        <div class="links-nav">
+          <div class="links1-nav">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne">
+                    CONEIX
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Missió i valors</li>
+                      <li>El nostre equip</li>
+                      <li>La nostre història</li>
+                      <li>Transparència</li>
+                      <li>Aliances estratègiques</li>
+                      <li>On treballem</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo">
+                    PROJECTES I SERVEIS
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Lleure educatiu escolar</li>
+                      <li>Cases de colònies</li>
+                      <li>Formació</li>
+                      <li>Esplais</li>
+                      <li>Suport Tercer Sector</li>
+                      <li>Programes socials i per a joves</li>
+                      <li>Activitats de vacances</li>
+                      <li>Alberg Centre Esplai</li>
+                      <li>Menja Actua Impacta</li>
+                      <li>Altres projectes</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree">
+                    COL·LABORA
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Fes Voluntariat</li>
+                      <li>Fes un donatiu</li>
+                      <li>Treballa amb nosaltres</li>
+                      <li>Campanya solidària d'estiu</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFour">
+                    INFORMA'T
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Actualitat</li>
+                      <li>Subscriu-te</li>
+                      <li>Blogs</li>
+                      <li>Vídeos</li>
+                      <li>Agenda</li>
+                      <li>Diari Fundesplai</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="link2-nav">
+            <ul>
+              <li>Treballa amb nosaltres</li>
+              <li>
+                <div class="nav-recursos">
+                  <p>Recursos</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+              </li>
+              <li>
+                <div class="nav-recursos">
+                  <p>Intranet</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+              </li>
+              <li>Contacta</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="nav-media">
+
+      <div class="links-media">
+        <div class="links1-media">
+          <div>Treballa amb nosaltres</div>
+          <div class="recursos">Recursos <i class="fa-solid fa-chevron-down"></i>
+            <div class="recursos-info">
+              <ul>
+                <li>Agenda</li>
+                <li>Banc de recursos pedagògics</li>
+                <li>El diari de Fundesplai</li>
+                <li>Memòria d'activitats</li>
+                <li>Propostes educatives</li>
+                <li>Publicacions</li>
+              </ul>
+            </div>
+          </div>
+          <div class="recursos">intranet <i class="fa-solid fa-chevron-down"></i>
+            <div class="recursos-info">
+              <ul>
+                <li>Intranet persones treballadores</li>
+                <li>Intranet famílies</li>
+              </ul>
+            </div>
+          </div>
+          <div>Contacta</div>
+          <div>
+            <i class="fa-solid fa-magnifying-glass glass-nav"></i>
+          </div>
+          <div class="lupa">CA <i class="fa-solid fa-chevron-down"></i></div>
+          <div style="color: #007c37">CONEIX FUNDESPLAI</div>
+        </div>
+        <div class="links2-media">
+          <div class="recursos">CONEIX<i class="fa-solid fa-chevron-down"></i>
+            <div class="recursos-info">
+              <ul>
+                <li>MISSIÓ I VALORS</li>
+                <li>EL NOSTRE EQUIP</li>
+                <li>LA NOSTRE HISTÒRIA</li>
+                <li>TRANSPARÈNCIA</li>
+                <li>ALIANCES ESTRATÈGIQUES</li>
+                <li>ON TREBALLEM</li>
+              </ul>
+            </div>
+          </div>
+          <div class="recursos">
+            PROJECTES I SERVEIS <i class="fa-solid fa-chevron-down"></i>
+            <div class="recursos-info">
+              <ul>
+                <li>LLEURE EDUCATIU ESCOLAR</li>
+                <li>CASES DE COLÒNIES</li>
+                <li>FORMACIÓ</li>
+                <li>ESPLAIS</li>
+                <li>SUPORT TERCER SECTOR</li>
+                <li>PROGRAMES SOCIALS I PER A JOVES</li>
+                <li>ACTIVITATS DE VACANCES</li>
+                <li>ALBERG CENTRE ESPLAI</li>
+                <li>MANJA ACTUA IMPACTA</li>
+                <li>ALTRES PROJECTES</li>
+              </ul>
+            </div>
+          </div>
+          <div class="recursos">COL·LABORA <i class="fa-solid fa-chevron-down"></i>
+            <div class="recursos-info">
+              <ul>
+                <li>FES VOLUNTARIAT</li>
+                <li>FES UN DONATIU</li>
+                <li>TREBALLA AMB NOSALTRES</li>
+                <li>CAMPANYA SOLIDÀRIA D'ESTIU</li>
+              </ul>
+            </div>
+          </div>
+          <div class="recursos">INFORMA'T <i class="fa-solid fa-chevron-down"></i>
+            <div class="recursos-info">
+              <ul>
+                <li>ACTUALITAT</li>
+                <li>SUBSCRIU-TE</li>
+                <li>BLOGS</li>
+                <li>VÍDEOS</li>
+                <li>AGENDA</li>
+                <li>DIARI FUNDESPLAI</li>
+              </ul>
+            </div>
+          </div>
+          <div class="ins"><a href="">Inscripcions</a></div>
+          <div class="dona"><a href="">Fes un donatiu</a></div>
+        </div>
+
+      </div>
+
+    </nav>
+    <div class="logo-nav-media">
+      <img style="position: absolute" src="./assets/Fundesplai-logo-web.png" alt="logo fundesplai" />
+    </div>
+    <div class="logo2-nav">
+      <img src="./assets/Captura.PNG" alt="">
+    </div>
+  </header>
+  <main>
+    <section class="video">
+      <video autoplay muted loop id="background-video">
+        <source src="https://fundesplai.org/wp-content/uploads/2023/02/home_1280x720.mp4" type="video/mp4" />
+        Tu navegador no soporta el elemento de video.
+      </video>
+      <a style="display: flex; flex-direction: row; align-items: center; justify-content: center;" href="#"
+        class="content">Coneix Fundesplai &nbsp;<div class="arrow-right"><i class=" fa-solid fa-chevron-right"></i>
+        </div></a>
+        <a href="#conv" class="content2"><i class="fa-solid fa-chevron-down"></i></a>
+    </section>
+    <section  class="convivencia">
+      <div class="educa">
+        <div id="conv">
+          <h2 class="eduquem-title" style="
+                margin-top: 30px;
+                font-weight: 300;
+                font-size: 35px;
+                line-height: 50px;
+              ">
+            EDUQUEM PER A LA CONVIVÈNCIA I LA SOSTENIBILITAT
+          </h2>
+        </div>
+        <div>
+          <img class="ratllaverda" src="/Assets/ratlla.png" alt="Ratlla verda" />
+        </div>
+        <div>
+          <p class="eduquem-text">
+            La nostra
+            <a class="missio" href="https://fundesplai.org/coneix/missio-i-valors/">missió</a>
+            és educar els infants i joves, enfortir les entitats de lleure i
+            el Tercer Sector, millorar el medi ambient i promoure la
+            ciutadania i la inclusió social, amb voluntat transformadora. Tots
+            els nostres <b>projectes i serveis</b> estan enfocats a complir
+            amb aquest objectiu a partir dels nostres compromisos amb
+            l’educació, la convivència i la sostenibilitat.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container-icon">
+      <section class="ico">
+        <a class="negrooo" href="https://escoles.fundesplai.org/">
+          <div class="container-icon-edu diviglesia">
+            <i class="hover-icon fa-solid fa-school"></i>
+          </div>
+          <div>
+            <a class="a1" href="https://escoles.fundesplai.org/">LLEURE EDUCATIU ESCOLAR</a>
+          </div>
+          <div>
+            <p>
+              Lleure educatiu en l’àmbit escolar: temps educatiu del migdia,
+              extraescolars, sortides,…
+            </p>
+          </div>
+          <div>
+            <a class="a2" href="https://escoles.fundesplai.org/">Entra al web del Món escolar<i
+                class="exit-icon fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </a>
+      </section>
+      <section class="ico">
+        <a class="negrooo" href="https://cases.fundesplai.org/">
+          <div class="container-icon-edu divluna">
+            <i class="hover-icon fa-solid fa-house"></i>
+          </div>
+          <div>
+            <a class="a1" href="https://cases.fundesplai.org/">CASES DE COLÒNIES</a>
+          </div>
+          <div>
+            <p>
+              Cases de colònies, albergs i terrenys d’acampada en plena
+              natura!
+            </p>
+          </div>
+          <div>
+            <a class="a2" href="https://cases.fundesplai.org/">Entra al web de les cases de colònies<i
+                class="exit-icon fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </a>
+      </section>
+      <section class="ico">
+        <a class="negrooo" href="https://formacio.fundesplai.org/">
+          <div class="container-icon-edu divporteria">
+            <i class="hover-icon fa-solid fa-graduation-cap"></i>
+          </div>
+          <div>
+            <a class="a1" href="https://formacio.fundesplai.org/">FORMACIÓ</a>
+          </div>
+          <div>
+            <p>
+              Cursos presencials i online per la capacitació i l’impuls de
+              canvis socials.
+            </p>
+          </div>
+          <div>
+            <a class="a2" href="https://formacio.fundesplai.org/">Entra al web de Formació<i
+                class="exit-icon fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </a>
+      </section>
+      <section class="ico">
+        <a class="negrooo" href="https://fundesplai.org/esplais/">
+          <div class="container-icon-edu divcometa">
+            <i class="hover-icon fa-solid fa-basketball"></i>
+          </div>
+          <div>
+            <a class="a1" href="https://fundesplai.org/esplais/">ESPLAIS</a>
+          </div>
+          <div>
+            <p>Esplais i projectes de lleure educatiu per tot Catalunya.</p>
+          </div>
+          <div>
+            <a class="a2" href="https://fundesplai.org/esplais/">Entra a la pàgina dels esplais<i
+                class="exit-icon fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </a>
+      </section>
+      <section class="ico">
+        <a class="negrooo" href="https://suport.fundesplai.org/">
+          <div class="container-icon-edu divpantalla">
+            <i class="hover-icon fa-solid fa-laptop-code"></i>
+          </div>
+          <div>
+            <a class="a1" href="https://suport.fundesplai.org/">SUPORT TERCER SECTOR</a>
+          </div>
+          <div>
+            <p>
+              Serveis per a entitats: jurídic, econòmic, informàtic, laboral…
+            </p>
+          </div>
+          <div>
+            <a class="a2" href="https://suport.fundesplai.org/">Entra al web de Suport Tercer Sector<i
+                class="exit-icon fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </a>
+      </section>
+      <section class="ico">
+        <a class="negrooo" href="https://fundesplai.org/programes-socials-i-joves/">
+          <div class="container-icon-edu divtres">
+            <i class="hover-icon fa-solid fa-people-group"></i>
+          </div>
+          <div>
+            <a class="a1" href="https://fundesplai.org/programes-socials-i-joves/">PROGRAMES SOCIALS I PER A JOVES</a>
+          </div>
+          <div>
+            <p>
+              Projectes socioeducatius de capacitació i inserció sociolaboral.
+            </p>
+          </div>
+          <div>
+            <a class="a2" href="https://suport.fundesplai.org/">Consulta tots els programes<i
+                class="exit-icon fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </a>
+      </section>
+      <section class="ico">
+        <a class="negrooo" href="https://estiu.fundesplai.org/">
+          <div class="container-icon-edu divsol">
+            <i class="hover-icon fa-solid fa-sun"></i>
+          </div>
+          <div>
+            <a class="a1" href="https://estiu.fundesplai.org/">ACTIVITATS DE VACANCES</a>
+          </div>
+          <div>
+            <p>
+              Casals d’estiu, d’hivern, colònies, campaments, camps de
+              treball,…
+            </p>
+          </div>
+          <div>
+            <a class="a2" href="https://estiu.fundesplai.org/">Inscriu-te a les activitats!<i
+                class="exit-icon fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </a>
+      </section>
+      <section class="ico">
+        <a class="negrooo" href="https://albergueesplaibarcelona.com/ca/">
+          <div class="container-icon-edu divllit">
+            <i class="hover-icon fa-solid fa-bed"></i>
+          </div>
+          <div>
+            <a class="a1" href="https://albergueesplaibarcelona.com/ca/">ALBERG CENTRE ESPLAI</a>
+          </div>
+          <div>
+            <p>El nostre alberg sostenible al Prat del Llobregat.</p>
+          </div>
+          <div>
+            <a class="a2" href="https://albergueesplaibarcelona.com/ca/">Entra al web de l'alberg<i
+                class="exit-icon fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </a>
+      </section>
+      <section class="ico">
+        <a class="negrooo" href="https://menjaactuaimpacta.org/">
+          <div class="container-icon-edu divsopa">
+            <i class="hover-icon fa-solid fa-bowl-rice"></i>
+          </div>
+          <div>
+            <a class="a1" href="https://menjaactuaimpacta.org/">EXPOSICIÓ MENJA, ACTUA, IMPACTA</a>
+          </div>
+          <div>
+            <p>Exposició temàtica sobre alimentació sostenible i saludable</p>
+          </div>
+          <div>
+            <a class="a2" href="https://menjaactuaimpacta.org/">Entra al web de l'exposició<i
+                class="exit-icon fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </a>
+      </section>
+    </section>
+    <section class="destaquem">
+      <a href=""></a>
+      <h1 style="font-size: 35px; font-weight: 300">DESTAQUEM</h1>
+      <img class="ratllaverda" src="/Assets/ratlla.png" alt="" />
+    </section>
+    <section class="fotos-grid">
+      <section class="secdestacados gap-1">
+        <a href="https://fundesplai.org/informa-t/actualitat/jornada-temps-educatiu-migdia/">
+          <div class="menjador">
+            <div class="imgmenjador altura-img">
+              <div class="destacat">
+                <a href="https://fundesplai.org/informa-t/actualitat/jornada-temps-educatiu-migdia/">DESTACAT</a>
+              </div>
+              <div class="jornada j1">
+                <p>
+                  Jornada de debat: present i futur del temps educatiu del
+                  migdia
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </section>
+      <section class="secdestacados gap-2">
+        <a
+          href="https://fundesplai.org/informa-t/actualitat/representants-de-30-empreses-administracions-i-entitats-donen-suport-al-programa-dinclusio-sociolaboral-dema-jove-de-fundesplai-que-contractara-250-joves/">
+          <div class="menjador">
+            <div class="imgdemajove altura-img">
+              <div class="destacat">
+                <a
+                  href="https://fundesplai.org/informa-t/actualitat/representants-de-30-empreses-administracions-i-entitats-donen-suport-al-programa-dinclusio-sociolaboral-dema-jove-de-fundesplai-que-contractara-250-joves/">DESTACAT</a>
+              </div>
+              <div class="jornada">
+                <p>
+                  La 3a edició del Demà Jove ofereix formació i treball a 250
+                  joves
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </section>
+      <section class="secdestacados gap-3">
+        <a href="https://fundesplai.org/informa-t/actualitat/vota-la-samarreta-destiu-de-fundesplai/">
+          <div class="menjador">
+            <div class="imgsamarretes altura-img">
+              <div class="destacat">
+                <a
+                  href="https://fundesplai.org/informa-t/actualitat/vota-la-samarreta-destiu-de-fundesplai/">DESTACAT</a>
+              </div>
+              <div class="jornada">
+                <p>Vota la samarreta d'estiu de Fundesplai!</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </section>
+      <section class="secdestacados gap-4">
+        <a href="https://estiudecolonies.elperiodico.cat/">
+          <div class="menjador">
+            <div class="imgia altura-img">
+              <div class="destacat">
+                <a href="https://estiudecolonies.elperiodico.cat/">DESTACAT</a>
+              </div>
+              <div class="jornada">
+                <p>
+                  Ja oberta la inscripció als camps d'estiu d'Intel·ligència
+                  Artificial i Drons
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </section>
+      <section class="secdestacados gap-5">
+        <a href="https://projectes.fundesplai.org/campus-ara/">
+          <div class="menjador">
+            <div class="imgrevista altura-img">
+              <div class="destacat">
+                <a href="https://projectes.fundesplai.org/campus-ara/">DESTACAT</a>
+              </div>
+              <div class="jornada j2">
+                <p>Campus d'estiu 2024 de periodisme</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </section>
+    </section>
+    <section class="secdestacados">
+
+      <section style="display: flex; justify-content: center; align-items: center;" class="verde">
+        <p class="segueix-actualitat">
+          Segueix l'actualitat de fundesplai a
+          <a href="https://fundesplai.org/informa-t/">la secció "Informat"</a>
+        </p>
+      </section>
+      <section class="inscripcions inscrip-flex">
+        <div class="divportatil">
+          <img class="portatil" src="/Assets/portatil-inscripcions-fundesplai-web.png"
+            alt="portatil-inscripcions-fundesplai-web" />
+        </div>
+        <div class="divportatil2">
+          <h2 class="h2portatil">Inscripcions</h2>
+          <p class="inscrip-text" style="margin-bottom: 25px">
+            Inscripcions i reserves online a totes les nostres activitats per a
+            infants i joves, cursos i formacions, conferències i altres
+            esdeveniments, activitats familiars a les cases de colònies, etc.
+          </p>
+          <a class="botonportatil" href="">
+            Accedeix al portal d'inscripcions
+          </a>
+        </div>
+      </section>
+      <section class="agenda">
+        <div class="agenda-title-container">
+          <h1 class="agenda-title">AGENDA</h1>
+          <img class="ratllaverda" src="/Assets/ratlla.png" alt="Ratlla verda">
+        </div>
+        <div class="agenda-mobile">
+
+          <div class="containerdivmes">
+            <div class="container-agend">
+
+              <div class="containermes">
+                <div class="fecha">
+                  <p class="'dia'">07</p>
+                  <p class="mes">MARÇ</p>
+                </div>
+              </div>
+              <div class="hora">
+                <p class="horari">9:00 - 13:00</p>
+                <h4>
+                  <a class="dia7"
+                    href="https://fundesplai.org/esdeveniments/jornada-de-debat-present-i-futur-del-temps-educatiu-del-migdia/">JORNADA
+                    DE DEBAT: PRESENT I FUTUR DEL TEMPS EDUCATIU DEL MIGDIA</a>
+                </h4>
+                <p class="dijous">Dijous, Centre Esplai</p>
+              </div>
+            </div>
+
+            <div class="mesinfo">
+              <a
+                href="https://fundesplai.org/esdeveniments/jornada-de-debat-present-i-futur-del-temps-educatiu-del-migdia/">Més
+                informació</a>
+            </div>
+            <div class="linea-hr"></div>
+          </div>
+          <div class="containerdivmes">
+            <div class="container-agend">
+
+              <div class="containermes">
+                <div class="fecha">
+                  <p class="dia">12</p>
+                  <p class="mes">MAIG</p>
+                </div>
+              </div>
+              <div class="hora">
+                <p class="horari">10:00 - 17:00</p>
+                <h4>
+                  <a class="dia7" href="https://fundesplai.org/esdeveniments/festa-esplai-2024/">FESTA ESPLAI, DIUMENGE
+                    12
+                    DE MAIG 2024</a>
+                </h4>
+                <p class="dijous">Diumenge, Parc Nou</p>
+              </div>
+            </div>
+
+            <div class="mesinfo">
+              <a href="https://fundesplai.org/esdeveniments/festa-esplai-2024/">Més informació</a>
+            </div>
+            <div class="linea-hr"></div>
+          </div>
+        </div>
+        <div>
+          <a class="consulta" href="">Consulta tota l'Agenda</a>
+        </div>
+
+
+      </section>
+  </main>
+  <main>
+    <section class="cola">
+      <div class="cola1">
+        <h2 style="text-align: center;">COL·LABORA AMB LA NOSTRA CAUSA</h2>
+        <img src="/assets/ratlla.png" alt="ratlla" />
+      </div>
+
+      <div class="cola-icon">
+        <div class="icon">
+          <div>
+            <i class="fa-solid fa-hands-holding-circle"></i>
+          </div>
+          <h3>FES UN DONATIU</h3>
+          <p>Transforma vides: aposta per l’educació en el lleure</p>
+          <section class="bg-icon-green">
+            <i class="fa-solid fa-plus"></i>
+          </section>
+        </div>
+        <div class="icon bg2">
+          <div>
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+          <h3>TREBALLA AMB NOSALTRES</h3>
+          <p>Suma’t a la nostra gran família!</p>
+          <section class="bg-icon-green">
+            <i class="fa-solid fa-plus"></i>
+          </section>
+        </div>
+        <div class="icon">
+          <div>
+            <i class="fa-solid fa-handshake"></i>
+          </div>
+          <h3>FES VOLUNTARIAT</h3>
+          <p>Regala temps i somriures!</p>
+          <section class="bg-icon-green">
+            <i class="fa-solid fa-plus"></i>
+          </section>
+        </div>
+      </div>
+    </section>
+    <section class="informa">
+      <div class="informa-text">
+        <h2>INFORMA'T!</h2>
+        <img src="/assets/ratlla.png" alt="ratlla" />
+      </div>
+      <div class="fotos-inf">
+        <div class="div-black-shadow">
+          <a class="img-bg1"
+            href="https://fundesplai.org/informa-t/propostes-families/4-punts-historics-del-solsones-per-visitar-en-familia/">
+            <div class="overlay">
+              <div class="overlay-title">
+                4 punts històrics del Solsonès per visitar en família
+              </div>
+              <div class="overlay-body">
+                febr. 27, 2024 | Propostes per a famílies
+              </div>
+            </div>
+          </a>
+        </div>
+        <a class="img-bg2"
+          href="https://fundesplai.org/informa-t/propostes-families/4-punts-historics-del-solsones-per-visitar-en-familia/">
+          <div class="overlay">
+            <div class="overlay-title">
+              Tot el que cal saber sobre la declaració d’utilitat pública (DUP)
+            </div>
+            <div class="overlay-body">
+              febr. 21, 2024 | Recursos per a entitats
+            </div>
+          </div>
+        </a>
+        <a class="img-bg3"
+          href="https://fundesplai.org/informa-t/propostes-families/4-punts-historics-del-solsones-per-visitar-en-familia/">
+          <div class="overlay">
+            <div class="overlay-title">
+              Com avaluar la qualitat del servei del Temps Educatiu del Migdia
+            </div>
+            <div class="overlay-body">
+              febr. 20, 2024 | Educació en el lleure
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </section>
+    <section class="segueix">
+      <div class="segueix-text">
+        <a href="https://fundesplai.org/informa-t/">Llegeix més a la secció “Informa’t”</a>
+        <h2>SEGUEIX-NOS!</h2>
+        <img src="/assets/ratlla.png" alt="ratlla" />
+        <p>
+          Subscriu-te i rebràs regularment notícies, recursos educatius i
+          continguts relacionats amb els nostres projectes i serveis de
+          Fundesplai!
+        </p>
+      </div>
+      <div class="mail">
+        <ul id="gform_fields_3">
+          <li id="field_3_1" data-js-reload="field_3_1">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"></label>
+                <input type="email" class="form-control bg-input" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="El teu correu electrònic" />
+              </div>
+            </form>
+          </li>
+          <li id="field_3_2" data-js-reload="field_3_2">
+            <div>
+              <ul id="input_3_2">
+                <li>
+                  <input class="gfield-choice-input" name="input_2.1" type="checkbox"
+                    value="He llegit i accepto la <a href='/politica-de-privacitat/' target='_blank'>política de privacitat</a>"
+                    id="choice_3_2_1" />
+                  <label for="choice_3_2_1" id="label_3_2_1">He llegit i accepto la
+                    <a style="color: #007c37;" href="/politica-de-privacitat/" target="_blank">política de
+                      privacitat</a></label>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="sub">
+        <div>
+          <button class="my-button2">Subscriu-te</button>
+        </div>
+        <div>
+          <p>Segueix-nos també a les xarxes socials</p>
+        </div>
+        <div class="bg-white text-center text-white">
+          <div class="container p-4 pb-0">
+            <div class="mb-4">
+              <!-- Twitter -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i
+                  class="fab fa-twitter"></i></a>
+              <!-- Facebook -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i
+                  class="fab fa-facebook-f"></i></a>
+
+              <!-- Instagram -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i
+                  class="fab fa-instagram"></i></a>
+
+              <!-- Linkedin -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i
+                  class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="som">
+      <div class="som1">
+        <div class="som1-1">
+          <img src="/assets/MicrosoftTeams-image-2-300x300.png" alt="LOGO-FUNDASPLAI" />
+        </div>
+        <div class="som-text som1-2">
+          <h2>SOM FUNDESPLAI</h2>
+          <p>
+            Som <b>Fundesplai</b>, una entitat sense ànims de lucre amb la
+            missió d'educar els infants i joves, enfortir les entitats de
+            lleure i el Tercer Sector, millorar el medi ambient i promoure la
+            ciutadania i la inclusió social, amb voluntat transformadora.
+          </p>
+          <button class="my-button">Coneix Fundesplai</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer">
+      <div>
+        <div class="footer-widgets">
+          <div class="widget">
+            <div class="widget">
+              <h4>NAVEGA</h4>
+              <div>
+                <ul>
+                  <li>
+                    <a href="https://fundesplai.org/" aria-current="page">Inici</a>
+                  </li>
+                  <li><a href="https://fundesplai.org/coneix/">Coneix</a></li>
+                  <li>
+                    <a href="https://fundesplai.org/projectes-i-serveis/">Projectes i serveis</a>
+                  </li>
+                  <li>
+                    <a href="https://fundesplai.org/collabora/">Col·labora</a>
+                  </li>
+                  <li>
+                    <a href="https://fundesplai.org/informa-t/">Informa’t</a>
+                  </li>
+                  <li>
+                    <a href="https://fundesplai.org/inscripcions/">Inscripcions</a>
+                  </li>
+                  <li>
+                    <a href="https://fundesplai.org/collabora/fes-un-donatiu/">Fes un donatiu</a>
+                  </li>
+                  <li>
+                    <a href="https://fundesplai.org/contacta/">Contacta</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="widget">
+            <div>
+              <h4 class="">Contacta</h4>
+            </div>
+            <div>
+              <p>
+                Carrer Riu Anoia 42-54<br />08820 El Prat de Llobregat<br />(+34)
+                93 474 74 74<br /><a href="mailto:fundacio@fundesplai.org">fundacio@fundesplai.org</a><br /><a
+                  href="https://fundesplai.org/contacta/" data-type="page" data-id="35">Mapa i contacte</a>
+              </p>
+            </div>
+          </div>
+          <div class="widget">
+            <div>
+              <h4 class="">Segueix-nos a les xarxes!</h4>
+            </div>
+            <div>
+              <p>
+                Suma't a la xarxa Fundesplai, com més serem més transformarem.
+              </p>
+            </div>
+            <div>
+              <p>Ajuda'ns a fer un món millor!</p>
+            </div>
+            <div class="text-center text-white">
+              <div class="container pt-4 social">
+                <div class="mb-4">
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                      class="fab fa-twitter"></i></a>
+
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                      class="fab fa-facebook-f"></i></a>
+
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                      class="fab fa-instagram"></i></a>
+
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                      class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="funda">
+        <img src="/assets/logo-fundesplai-negatiu-300x72.png" alt="" />
+      </div>
+    </section>
+    <section class="privacity">
+      <div>
+        <ul class="top-nav">
+          <li>© 1995 - 2024 Fundesplai</li>
+        </ul>
+        <ul class="bottom-nav">
+          <li>
+            <a rel="privacy-policy" href="https://fundesplai.org/politica-de-privacitat/">Política de privacitat</a>
+          </li>
+          <li>
+            <a href="https://fundesplai.org/condicions-generals-dus/">Condicions generals d’ús</a>
+          </li>
+          <li>
+            <a target="_blank" rel="noopener" href="https://fundesplai.org/canal-informant/">Canal de l’informant</a>
+          </li>
+          <li>
+            <a href="https://fundesplai.org/politica-de-cookies/">Política de cookies <i
+                class="fas fa-cookie-bite"></i></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="logos">
+      <div>
+        <img src="/assets/9001.png" alt="iso" />
+        <img src="/assets/Certificat-Ambiental-EMAS-1-gris_80_99.jpg" alt="emas" />
+        <img src="/assets/14001_94_164.jpg" alt="applus" />
+        <img src="/assets/segell-fundacion-lealtad-gris.png" alt="ong" />
+      </div>
+    </section>
+  </footer>
+  <script src="https://kit.fontawesome.com/4baa0e9b7b.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
